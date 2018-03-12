@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './main_menu.scss'
 
 export default class Mainmenu extends Component {
   constructor (props) {
@@ -9,6 +10,6 @@ export default class Mainmenu extends Component {
     console.log('entre')
   }
   render () {
-    return <h1 className='containermenu'>{`hola ${this.props.name} ${this.props.apellido}`}</h1>
+    return <h1 className='containermenu'>{`hola ${this.props.name}`}</h1>
   }
 }
